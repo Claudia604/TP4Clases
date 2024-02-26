@@ -2,29 +2,6 @@
 crear funciones que permitan a los usuarios buscar libros por título, verificar si un libro específico
 está disponible para préstamo y llevar un registro de la disponibilidad de los libros. */
 
-// const catalogoBiblioteca = [
-//     "Harry Potter y la piedra filosofal",
-//     "Odisea",
-//     "El principito",
-//     "Orgullo y prejuicio",
-//     "Hamlet",
-//   ];
-
-//   function buscarLibro(titulo) {
-//     const libroEncontrado = catalogoBiblioteca.find(
-//       (libro) => libro.toLowerCase() === titulo.toLowerCase()
-//     );
-//     return libroEncontrado || "Libro no encontrado";
-//   }
-
-//   function disponibilidad(titulo) {
-//     const libroEncontrado = buscarLibro(titulo);
-//     return libroEncontrado !== "Libro no encontrado";
-//   }
-
-//   document.write("Catálogo de la biblioteca:<br>");
-//   catalogoBiblioteca.forEach((libro) => document.write(`${libro}<br>`));
-
 const catalogoBiblioteca = [
   { titulo: "Harry Potter y la piedra filosofal", disponible: true },
   { titulo: "Odisea", disponible: true },
